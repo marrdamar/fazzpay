@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* .hero-land {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 120px;
+    background-image: url("/images/vector-wave-land.png");
+  }
+  .hero-auth {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 120px;
+    background-image: url("/images/vector-wave.png");
+  } */
+  .sliders {
+    transition: 1s ease-in-out;
+  }
+
+  .label-input {
+    @apply flex gap-4 border-b-2 py-2 border-grey/70 flex-row-reverse;
+  }
+  .label-input input:focus {
+    @apply border-none outline-none bg-none;
+  }
+  .label-input:focus-within {
+    @apply border-prime;
+  }
+  .label-input input:focus + i {
+    @apply text-prime;
+  }
+  .btn-prime {
+    @apply btn border-2 border-prime text-white bg-prime hover:bg-prime/80 hover:text-white hover:border-prime font-bold transition-all;
+  }
+  .btn-outline-prime {
+    @apply btn border-2 border-prime text-prime bg-white hover:bg-prime hover:text-white hover:border-prime font-bold;
+  }
+  /* #3652f5 */
+  .btn-action {
+    @apply btn font-bold border-2 border-white text-white bg-[#7485e2] hover:border-white hover:bg-primary;
+  }
+  .btn-link {
+    @apply capitalize decoration-transparent;
+  }
+
+  .navside-content {
+    @apply w-72 text-lg font-semibold py-10 flex flex-col gap-10 rounded-3xl bg-white shadow;
+    transition: 0.8s ease-in-out;
+  }
+  .nav-side {
+    @apply hover:text-prime cursor-pointer h-8 flex items-center gap-2;
+  }
+  .nav-side::before {
+    @apply hover:bg-prime h-8 w-2 rounded-r-md transition-all bg-white mr-8;
+    content: "";
+  }
+  .nav-side::after {
+    @apply hover:bg-prime ml-auto h-8 w-2 rounded-s-md transition-all bg-white;
+    content: "";
+  }
+  .navside-active {
+    @apply before:bg-prime after:bg-prime text-prime;
+  }
+
+  .input-pin input {
+    @apply rounded-lg border-2 w-10 md:w-16 py-2 md:py-3 font-bold text-center md:text-2xl focus:outline-2 text-prime focus:outline-prime;
+  }
+  .input-profile {
+    @apply text-[22px] font-bold focus:outline-none;
+  }
+  .loaders span {
+    @apply w-10 h-10 border border-white rounded-full bg-prime;
+    animation: loader 1.5s ease-in-out infinite;
+  }
+  @keyframes loader {
+    0%,
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    35%,
+    65% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .loaders span:last-child {
+    animation-delay: 0.8s;
+  }
+  .loaders span:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  .loaders span:first-child {
+    animation-delay: 0.4s;
+  }
+
+  iframe,
+  #checkdv_1 {
+    @apply absolute -z-50;
+  }
+}
