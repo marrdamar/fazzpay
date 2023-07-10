@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./public/e-wallet.png" alt="Logo" width="120" height="120">
+<img src="./public/e-wallet.avif" alt="Logo" width="120" height="120">
 
   <h2 align="center">FAZZPAY E-WALLET</h2>
 
