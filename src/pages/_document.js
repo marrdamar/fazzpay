@@ -13,7 +13,7 @@ export default function Document() {
           content="aplikasi e-wallet, Fazzpay, transaksi digital, keamanan finansial, kemudahan transaksi, mudah digunakan"
         />
         <link rel="canonical" href="https://fazzpay-next.vercel.app" />
-        <link rel="icon" href="/digital-wallet.png" />
+        <link rel="icon" href="/e-wallet.avif" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
