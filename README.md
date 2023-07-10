@@ -20,9 +20,13 @@ FazzPay E-Wallet is a web-based application for storing and managing electronic 
 
 This application is built using React.js, Next.js, Redux, axios, Lodash, Chart.js, React-Pin-Field, TailwindCSS, and DaisyUI.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,next,javascript,html,css,redux,tailwind,vercel" />
-</div>
+[![My Skills](https://skillicons.dev/icons?i=react)](https://react.dev/)
+  [![My Skills](https://skillicons.dev/icons?i=redux)](https://redux.js.org/)
+  [![My Skills](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
+  [![My Skills](https://skillicons.dev/icons?i=css)](https://www.w3schools.com/css/css_intro.asp)
+  [![My Skills](https://skillicons.dev/icons?i=vercel)](https://vercel.com)
+  [![My Skills](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)
+
 
 ## Features
 
